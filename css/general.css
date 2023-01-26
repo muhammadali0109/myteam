@@ -1,0 +1,22 @@
+:root {
+  --font-family: "Livvic", sans-serif;
+  --border: 1px solid;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 769px) {
+  .container {
+    width: 768px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .container {
+    width: 375px;
+  }
+}
+
+/*# sourceMappingURL=general.css.map */

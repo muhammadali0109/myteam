@@ -1,0 +1,85 @@
+.sect{
+    width: 1400px;
+    background: #004047;
+    margin: 0 auto;
+    &__e{
+        margin-bottom: 40px;
+    }
+    &__top{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    &__h2{
+        font-size: 48px;
+        font-family: var(--font-family);
+        color: white;
+        margin: 0px;
+    }    
+    &__span{
+        color: #79C8C7;
+    }
+    &__bottom{
+        width: 100%;
+        font-family: var(--font-family);
+        margin-top: 56px;
+        margin-bottom: 56px;
+    }
+    &__list{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item{
+        width: 300px;
+        text-align: center;
+        background-image: url(/imgs/ex.mark.svg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+    }
+    &__item>p{
+        color: white;
+    }
+    &__item>h3{
+        color: #79C8C7;
+    }
+    &__el{
+        margin-left: 1200px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .sect{
+        width: 768px;
+        
+        &__h2{
+            font-size: 45px;
+        }
+        &__list{
+            flex-direction: column;
+            align-items: center;
+        } 
+        &__el{
+            margin-left: 568px;
+        }
+        
+    }
+    
+}
+@media only screen and (max-width: 376px) {
+    .sect{
+        width: 376px;
+        &__h2{
+            font-size: 32px;
+        }
+        // &__list{
+        //     flex-direction: column;
+        //     align-items: center;
+        // } 
+        &__el{
+            margin-left: 175px;
+        }
+        
+    }
+    
+}
